@@ -1,0 +1,286 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.21f1 (a38c86f6690f) revision 10718342'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 22000.282; Version 2009; 64bit' Language: 'en' Physical Memory: 16179 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/marwa/Documents/MIX/BasketBallVR/VRGroup1
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53260
+Successfully changed project path to: C:/Users/marwa/Documents/MIX/BasketBallVR/VRGroup1
+C:/Users/marwa/Documents/MIX/BasketBallVR/VRGroup1
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 54.28 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 1.76 ms.
+Initialize engine version: 2020.3.21f1 (a38c86f6690f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/marwa/Documents/MIX/BasketBallVR/VRGroup1/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   
+    VRAM:     6023 MB
+    Driver:   30.0.14.9649
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56100
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000870 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 32.85 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.018 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3018ms)
+		BeginReloadAssembly (42ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (389ms)
+			LoadAssemblies (41ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (121ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (143ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (33ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (74ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002460 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 63.09 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\marwa\Documents\MIX\BasketBallVR\VRGroup1\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\marwa\Documents\MIX\BasketBallVR\VRGroup1\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <208f92fc783546f9abbe643bfc23920c>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.217 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1218ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (1063ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (229ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (586ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (63ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (398ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 1941 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.7 MB.
+System memory in use after: 84.8 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2378.
+Total: 7.535400 ms (FindLiveObjects: 0.293100 ms CreateObjectMapping: 0.102700 ms MarkObjects: 6.959000 ms  DeleteObjects: 0.178100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/court_material.mat
+  artifactKey: Guid(3ea70ecabcc35d349859671c163f6d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/court_material.mat using Guid(3ea70ecabcc35d349859671c163f6d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '204f6b01fa821a16b2e30d44e003b6c4') in 0.241929 seconds 
+  Import took 0.245982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/bou.physicMaterial
+  artifactKey: Guid(6dc2b6421b38c6344b41e438a15a4129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bou.physicMaterial using Guid(6dc2b6421b38c6344b41e438a15a4129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f64f5062001682c2c92526513e574f0b') in 0.013277 seconds 
+  Import took 0.016662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/drake_laugh_now_cry_later_official_lyric_video_ft_lil_durk_-6155518364225448771.mp3
+  artifactKey: Guid(3471082c1f6741f44b1e8a1a12bb98f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/drake_laugh_now_cry_later_official_lyric_video_ft_lil_durk_-6155518364225448771.mp3 using Guid(3471082c1f6741f44b1e8a1a12bb98f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3abfd8ea8fc78d15d5ded1d990d0dacb') in 0.122829 seconds 
+  Import took 0.126308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/ADEKVWP-cheering-crowd.mp3
+  artifactKey: Guid(c410bea63badd5641981c8974420e703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ADEKVWP-cheering-crowd.mp3 using Guid(c410bea63badd5641981c8974420e703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a515df067ab340cf5b217494168ada') in 0.018623 seconds 
+  Import took 0.021515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Black.mat
+  artifactKey: Guid(fa35b3f8b96927d4c974bbc02a2c05be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Black.mat using Guid(fa35b3f8b96927d4c974bbc02a2c05be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c01accc89419538ab41bcce0d54d929') in 0.115305 seconds 
+  Import took 0.118811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/ball_material.mat
+  artifactKey: Guid(a4019cb8d9802a74bbdead81c287029a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ball_material.mat using Guid(a4019cb8d9802a74bbdead81c287029a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1dfdffe4cb560dd334c6368397f8f34') in 0.054437 seconds 
+  Import took 0.057379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Hand.obj
+  artifactKey: Guid(d29c84226fe41554cb1511070bd676b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand.obj using Guid(d29c84226fe41554cb1511070bd676b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '611a8a7aa9921004767212ccd3b3cbb2') in 0.062895 seconds 
+  Import took 0.065630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/balldimpled.png
+  artifactKey: Guid(124e929ce024744418f6c1dd36731dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/balldimpled.png using Guid(124e929ce024744418f6c1dd36731dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c5f2ba7f9ee8fa9ef3c6c2ad066a4d0') in 0.036856 seconds 
+  Import took 0.040358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 416.534228 seconds.
+  path: Assets/Hand_Right.blend
+  artifactKey: Guid(aa052ef2c7433b5448b824f1d2930e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hand_Right.blend using Guid(aa052ef2c7433b5448b824f1d2930e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7925c399c0b47e3af016bdd7f69d7f42') in 0.076485 seconds 
+  Import took 0.125489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/metro_boomin_space_cadet_feat_gunna_official_audio_-5855708747889637619.mp3
+  artifactKey: Guid(55458885296e32245ba634fdd0f9a2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/metro_boomin_space_cadet_feat_gunna_official_audio_-5855708747889637619.mp3 using Guid(55458885296e32245ba634fdd0f9a2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87abe56e7d9d7bc10417e1d674504682') in 0.018716 seconds 
+  Import took 0.022591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/New Material.mat
+  artifactKey: Guid(f4dcfc764635a0f43859c1ef8a266a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material.mat using Guid(f4dcfc764635a0f43859c1ef8a266a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '341095742485f3745a5c146b8a4b1d82') in 0.020514 seconds 
+  Import took 0.024252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/New Physic Material.physicMaterial
+  artifactKey: Guid(bf1513f908684ed40a7e3f33e9b6859c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Physic Material.physicMaterial using Guid(bf1513f908684ed40a7e3f33e9b6859c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f123ce5305d59add4c2c8366793f5a2f') in 0.010294 seconds 
+  Import took 0.014527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/wall_material.mat
+  artifactKey: Guid(26631a398bcadc44f9b5f84749d93c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/wall_material.mat using Guid(26631a398bcadc44f9b5f84749d93c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c4d9f4dd1d6bf62b7a56d4860ed6549') in 0.021455 seconds 
+  Import took 0.024570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Left.obj
+  artifactKey: Guid(5344d5adfab12c54b9007551743f53bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Left.obj using Guid(5344d5adfab12c54b9007551743f53bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eba630ae464de079edaf5012cc6b6e6') in 0.031428 seconds 
+  Import took 0.035742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/uploads_files_888058_basketball.obj
+  artifactKey: Guid(b3fdf7e4cab42514cb4e81c698e7b7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/uploads_files_888058_basketball.obj using Guid(b3fdf7e4cab42514cb4e81c698e7b7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eddb7a545815abefeb55317692e74c6b') in 0.031636 seconds 
+  Import took 0.035285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/RHAND.obj
+  artifactKey: Guid(93f874b258cb92c4a87ec0b1ee5a7aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RHAND.obj using Guid(93f874b258cb92c4a87ec0b1ee5a7aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2753ff6adf2399b993e8d586314a0106') in 0.029800 seconds 
+  Import took 0.033044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Right.obj
+  artifactKey: Guid(2c3a233aed0dd8e46b498ed5818b8203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Right.obj using Guid(2c3a233aed0dd8e46b498ed5818b8203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a3ca1cdbd7101fe3737f1652fad65a') in 0.030891 seconds 
+  Import took 0.034931 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
